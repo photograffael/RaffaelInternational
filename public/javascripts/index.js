@@ -2,13 +2,13 @@ $(document).ready(function() {
 
 
   var options = {
-    strings: ['raffael.international', 'raffael.kreativ',
-    'raffael.lernen', 'raffael.motiviert', 'raffael.reisen', 'raffael.international'],
+    strings: ['raffael.international', 'raffael.kreativ', 'raffael.interessiert',
+      'raffael.motiviert', 'raffael.neugierig', 'raffael.international'],
     typeSpeed: 70,
     backSpeed: 80,
-    backDelay: 1000,
+    backDelay: 1200,
     loop: false,
-    showCursor: false,
+    showCursor: true,
     smartBackspace: true,
     onComplete: (self) => {
       console.log("complete");

@@ -32,15 +32,15 @@ app.get("/", function (req, res) {
 });
 
 app.get("/code", function (req, res) {
-   res.redirect("https://github.com/Tigifan");
+   res.redirect("https://github.com/photograffael");
 });
 
 // Gallery
-app.get("/gallery", function (req, res) {
+/* app.get("/gallery", function (req, res) {
     res.render("gallery.ejs", {
         files: gallery.listFiles(__dirname + "/public/gallery/"),
     });
-});
+}); */
 
 // IMPRINT & PRIVACY
 app.get("/imprint", function (req, res) {
@@ -52,7 +52,7 @@ app.get("/privacy", function (req, res) {
 });
 
 // SESSIONS
-app.get("/login", function (req, res) {
+/*app.get("/login", function (req, res) {
     session = req.session;
 
     res.render("login.ejs");
@@ -78,11 +78,11 @@ app.get('/logout',function(req,res) {
             res.redirect('/');
         }
     });
-});
+}); */
 
 app.use(function (req, res, next) {
     console.log(req.path)
-   res.status(404).render("404.ejs", { url: "apollodoener.de" + req.path });
+   res.status(404).render("404.ejs", { url: "raffael.international" + req.path });
 });
 
 

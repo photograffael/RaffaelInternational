@@ -3,7 +3,8 @@ Web.iml
 npm-debug.log
 node_modules
 .idea
-public/stylesheets/font-awesome
+public/fontawesome
 public/javascripts/web-animations
 public/gallery/*
 start.sh
+package-lock.json

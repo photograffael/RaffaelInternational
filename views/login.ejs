@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ApolloDoener Login"/>
+    <meta name="keywords" content="ApolloDoener, Apollo, Doener, Tigifan, Code, Gallerie, Login" />
+
+    <title>ApolloDoener Home</title>
+
+
+    <%- include("partials/includes.ejs") %>
+    <link rel="stylesheet" href="/stylesheets/login.css">
+</head>
+<body>
+    <%- include("partials/nav.ejs") %>
+    <div class="login">
+        <form class="pure-form pure-form-aligned">
+            <fieldset>
+                <div class="pure-control-group">
+                    <label for="name">Username</label>
+                    <input id="name" type="text" placeholder="Username">
+                </div>
+
+                <div class="pure-control-group">
+                    <label for="email">Email Address</label>
+                    <input id="email" type="email" placeholder="Email Address">
+                </div>
+
+                <div class="pure-control-group">
+                    <label for="password">Password</label>
+                    <input id="password" type="password" placeholder="Password">
+                </div>
+
+                <div class="pure-controls">
+                    <button id="submit" type="submit" class="pure-button pure-button-primary">Submit</button>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+    <%- include("partials/footer.ejs") %>
+</body>
+</html>

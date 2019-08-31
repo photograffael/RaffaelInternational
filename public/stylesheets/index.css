@@ -49,3 +49,7 @@
 #github:hover { color: #333; }
 #twitter:hover { color: #1da1f2; }
 #youtube:hover { color: #cc181e; }
+
+.typed-cursor {
+  text-align: justify !important;
+}
